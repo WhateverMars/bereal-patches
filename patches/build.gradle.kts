@@ -1,12 +1,11 @@
-group = "app.template"
+group = "app.whatevermars"
 
 patches {
-    // TODO: Update this section with your project details.
     about {
-        name = "UserXYZ Patches"
-        description = "Patches for apps I like"
-        source = "git@github.com:UserXYZ/morphe-patches.git"
-        author = "Awesome dev"
+        name = "BeReal Patches"
+        description = "Ad-blocking and other patches for BeReal"
+        source = "git@github.com:WhateverMars/bereal-patches.git"
+        author = "WhateverMars"
         contact = "na"
         website = "na"
         license = "GPLv3"
