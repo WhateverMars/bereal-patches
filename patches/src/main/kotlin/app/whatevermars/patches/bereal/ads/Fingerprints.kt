@@ -18,3 +18,17 @@ internal object MaxAdViewLoadAdFingerprint : Fingerprint(
     returnType = "V",
     parameters = listOf(),
 )
+
+internal object StartupLauncherLaunchFingerprint : Fingerprint(
+    definingClass = "Lcom/pairip/StartupLauncher;",
+    name = "launch",
+    returnType = "V",
+    parameters = listOf(),
+)
+
+internal object SignatureCheckVerifyIntegrityFingerprint : Fingerprint(
+    definingClass = "Lcom/pairip/SignatureCheck;",
+    name = "verifyIntegrity",
+    returnType = "V",
+    parameters = listOf("Landroid/content/Context;"),
+)
